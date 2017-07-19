@@ -86,6 +86,10 @@ Following table summarizes the pipeline implement lane detection in images and v
     </tr>
 </table>
 
+- Final images with detected lines are available in [test_images_output](https://github.com/RajeshThallam/carnd/tree/master/term-1/p1-finding-lane-lines/test_images_output) directory
+
+- Final videos with detected lines are available in [test_videos_output](https://github.com/RajeshThallam/carnd/tree/master/term-1/p1-finding-lane-lines/test_videos_output) directory
+
 ### 2. Potential Shortcomings
 
 - Majority of the time was spent in tuning the pipeline parameters such as hough transform parameters, line thresholds, region of interest vertices etc. This was done based on the test images provided. If there are new images with lines in different colors or different road situations, the code may not function accurately.
